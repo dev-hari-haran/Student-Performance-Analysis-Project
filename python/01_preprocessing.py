@@ -231,5 +231,5 @@ print(f"  Por  cleaned shape  : {por_df.shape}")
 print(f"\n  Sample (Math — first 3 rows):")
 print(math_df[["sex","age","studytime","failures","absences",
                "Medu","Fedu","G1","G2","G3"]].head(3).to_string(index=False))
-print("\n  Task 1 DONE. Ready for 02_studytime_analysis.py")
+print("\n  Task 1 DONE.")
 print("=" * 60)
