@@ -1,0 +1,38 @@
+==========================================================
+  MIGRATION LOG — Student Performance Analysis
+  SASTRA University | Modern Programming Paradigms for AI
+==========================================================
+Migration Date     : [01-04-2026]
+Executed By        : [HARIHARAN R & KOKKILIGADDA RINCY / STUDENT]
+Language Used      : [Python]
+Random Seed        : 42
+
+--- PHASE 2: EXTRACTION ---
+student-mat.csv loaded  : [YES]  | Shape: [395 x 33]
+student-por.csv loaded  : [YES]  | Shape: [649 x 33]
+
+--- PHASE 3: VALIDATION ---
+Missing values (Math)   : [0]
+Missing values (Por)    : [0]
+Type errors detected    : [0]
+Out-of-range values     : [0]
+Duplicate rows          : [0]
+Validation result       : [PASS]
+
+--- PHASE 4: TRANSFORMATION ---
+Columns encoded         : [0]
+Rows affected by impute : [0]
+Rows dropped            : [0]
+
+--- PHASE 5: LOAD ---
+student-mat-clean.csv saved : [YES] | Shape: [395 x 33]
+student-por-clean.csv saved : [YES] | Shape: [649 x 33]
+
+--- PHASE 6: POST-VALIDATION ---
+Post-validation result      : [PASS]
+Issues noted                : [None]
+
+--- SIGN-OFF ---
+Student 1            : [HARIHARAN R]  |  Date: [07-04-2026]
+Student 2         : [KOKKILIGADDA RINCY ]  |  Date: [07-04-2026]
+==========================================================
